@@ -10,7 +10,7 @@
 
 
 html {
-    background: #fff;                               /* couleur de fond */
+    background: aqua;                               /* couleur de fond */
     font-family:  'Lato','Arial', sans-serif;       /* police de caractère */
     font-weight : 300;                              /* épaisseur de la police */
     font-size: 20px;                                /* taille de la police */
@@ -23,4 +23,38 @@ html {
     margin: 0 auto;         /* centrer l'élément */
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px;
+    font-weight: 300;
+}
 
+.btn-full {
+    border: 2px solid #fff;
+    background-color: #e67e22;
+    border-radius: 300px;
+}
+
+.btn-full:hover {
+    transition: background-color 5s, border-radius 5s, border-color 5s, color 5s;
+    background-color: chartreuse;
+    border-radius: 15px 50px;
+    border-color: black;
+    color:antiquewhite;
+}
+
+.btn-ghost {
+    border: 2px solid #fff;
+    border-radius: 15px 50px
+}
+
+.btn-ghost:hover {
+    border-radius: 300px;
+    color: yellow;
+}
+
+.btn-ghost:visited {
+    /*color: deeppink*/
+}
